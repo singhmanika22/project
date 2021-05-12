@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_runner-2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.comcast.crm.conatcttest.CreateContact">
+        <methods>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="setUp"/>
+          <include name="createContactWithOrg"/>
+          <include name="tearDown"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.comcast.crm.conatcttest.CreateContact -->
+    </classes>
+  </test> <!-- Test_runner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
