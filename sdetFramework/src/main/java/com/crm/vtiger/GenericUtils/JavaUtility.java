@@ -12,7 +12,7 @@ public class JavaUtility {
 	
 	/**
 	 * generate random number 
-	 * @author Manika
+	 * @author Manika bbb
 	 * 
 	 */
 	public static String getRandomData()

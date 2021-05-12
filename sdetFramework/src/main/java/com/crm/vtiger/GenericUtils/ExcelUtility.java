@@ -21,7 +21,7 @@ public class ExcelUtility {
 	 * @param rownum
 	 * @param cellnum
 	 * @return cell string value
-	 * @throws Throwable
+	 * @throws Throwablehgfhjgfhg
 	 */
 	public String getExcelData(String sheetName,int rownum,int cellnum) throws Throwable {
 		FileInputStream file=new FileInputStream(IPathConstant.EXCELPATH);
