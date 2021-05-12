@@ -22,7 +22,7 @@ import com.crm.vtiger.pomclass.HomePage;
 import com.crm.vtiger.pomclass.LoginPage;
 
 public class BaseClass {
-	public WebDriver driver;
+	public WebDriver driver;//fjhfjfjfj
 	public ExcelUtility eUtil=new ExcelUtility();
 	public FileUtility fUtil=new FileUtility();
 	public WebDriverUtility wUtil=new WebDriverUtility();
